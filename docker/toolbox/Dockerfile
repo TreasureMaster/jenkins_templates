@@ -12,5 +12,5 @@ RUN python3 -m ensurepip
 # RUN apk add --no-cache py-pip
 RUN pip3 install --no-cache --upgrade pip setuptools
 RUN pip install awscli
-RUN apk --purge -v del py-pip
+# RUN apk --purge -v del py-pip
 CMD tail -f /dev/null
