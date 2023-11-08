@@ -2,8 +2,7 @@ FROM alpine
 
 ENV PYTHONUNBUFFERED=1
 # RUN apk add --no-cache curl wget busybox-extras netcat-openbsd python py-pip
-RUN apk add --update --no-cache curl
-RUN apk add --no-cache wget
+RUN apk add --update --no-cache curl wget
 RUN apk add --no-cache busybox-extras
 RUN apk add --no-cache netcat-openbsd
 # RUN apk add --no-cache python
